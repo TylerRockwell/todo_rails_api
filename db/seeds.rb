@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+150.times do
+  Todo.create(title: Faker::Company.bs, is_completed: [true, false].sample)
+end
