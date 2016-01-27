@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/RickCarlino/smarf_doc.git
+  revision: 88394bf9dbadf1fa4b89c370ffc5ae12d0c0611e
+  specs:
+    smarf_doc (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -218,6 +224,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   shoulda-matchers (~> 3.0)
+  smarf_doc!
   spring
   sqlite3
   turbolinks
@@ -225,4 +232,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
