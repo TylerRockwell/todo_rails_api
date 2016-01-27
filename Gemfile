@@ -46,4 +46,5 @@ group :test do
   gem 'rspec-rails'
   #Use factory_girl for test fixtures
   gem 'factory_girl_rails'
+  gem 'smarf_doc', github: 'RickCarlino/smarf_doc'
 end

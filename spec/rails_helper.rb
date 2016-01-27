@@ -13,3 +13,8 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   config.include FactoryGirl::Syntax::Methods
 end
+
+SmarfDoc.config do |c|
+  c.template_file = 'spec/template.md.erb'
+  c.output_file   = 'api_docs.md'
+end

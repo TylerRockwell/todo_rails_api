@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :todo, class: 'Todo' do
-    title         'Write a test'
-    is_completed  false
+    title         Faker::Company.bs
+    is_completed  [true, false].sample
   end
 end
